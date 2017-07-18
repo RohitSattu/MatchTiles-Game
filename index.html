@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<!-- meta data -->
+  <meta charset="UTF-8">
+  <meta name="description" content="Udacity Project 2">
+  <meta name="keywords" content="HTML,CSS, Udacity Project">
+  <meta name="author" content="Rohit Sattu">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- title -->
+  <title>Memory Game</title>
+  <!-- site font and icons -->
+  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- navigation -->
+  <nav>
+    <ul class="navigation">
+      <li><a href="http://rohitsattu.space">ROHIT SATTU</a></li>
+    </ul>
+  </nav>
+  <!-- game content -->
+  <section class="game_class content">
+    <div class="wrapper">
+      <h1 class="heading">Memory Game</h1>
+      <p class="info">
+      <!-- ratings -->
+        <i class="material-icons rating" id="star1" >star</i>
+        <i class="material-icons rating" id="star2">star</i>
+        <i class="material-icons rating" id="star3">star</i>
+        <!-- moves -->
+         <span id="moves">0</span> Moves
+         <!-- replay button-->
+          <i class="material-icons replay" id="replay" onclick="replay()">replay</i></p>
+      <!-- container for game icons -->
+      <div id="hero">
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal" id="modal">
+      <!-- Modal content hidden by default-->
+      <div class="modal-content">
+        <i class="material-icons">gamepad</i>
+        <h2>Congratulations! You Won!</h2>
+        <!-- all information is updated using javascript -->
+        <p>You took <span id="intime">30</span> Seconds to finish the game.</p>
+        <p>With <span id="noMoves">10</span> Moves and <span id="withStars">3</span> Stars.</p>
+        <!-- refresh page -->
+        <button class="replayBtn" onclick="replay()">Play Again</button>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <p>&copy; Rohit Sattu</p>
+  </footer>
+  <script type="text/javascript" src="js.js"></script>
+</body>
+</html>
