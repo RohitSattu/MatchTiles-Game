@@ -2,9 +2,9 @@
 
 Match tiles to win.
 
-# Play
+# [Play](https://htmlpreview.github.io/?https://github.com/RohitSattu/Memory-Game/blob/master/index.html) to play the game
 
-- you can play this game at https://webspace.ocad.ca/~3157793/MemoryGame_RohitSattu/
+- Click [here](https://htmlpreview.github.io/?https://github.com/RohitSattu/Memory-Game/blob/master/index.html) to play the game
 - try to match 2 tiles. To win the game, you need to match all the tiles.
 
 # Made
